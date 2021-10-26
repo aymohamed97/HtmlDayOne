@@ -1,0 +1,53 @@
+*{
+    background-color:tan;
+    margin: 25px
+    /* padding: 30px; */
+    
+}
+h1  {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkslategray;
+}
+p{ 
+    color: darkslategrey;
+}
+h1 > {
+    margin: 25px;
+}
+h2 >{
+    margin: 25px
+}
+figcaption{
+    font-size:large;
+}
+body {
+    margin: 0;
+    margin-top: 50px;
+    font-family: sans-serif; /* Add this line */
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #eee;
+}
+
+header * {
+    display: inline;
+    height: 50px;
+}
+p:first-letter{ 
+    display:block; 
+    /*adjust the letter position for best appearance*/
+    margin:5px 5px 0 5px!important;  
+    float:left; 
+    /*set font family color and size*/
+    color:#865662; 
+    font-size:3.0em; 
+    font-family:permanent marker; 
+    }
