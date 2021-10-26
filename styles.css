@@ -43,10 +43,8 @@ header * {
 }
 p:first-letter{ 
     display:block; 
-    /*adjust the letter position for best appearance*/
     margin:5px 5px 0 5px!important;  
     float:left; 
-    /*set font family color and size*/
     color:#865662; 
     font-size:3.0em; 
     font-family:permanent marker; 
